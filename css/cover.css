@@ -100,7 +100,7 @@ body {
 }
 
 .widthp {
-  padding:0 5rem;
+  padding:0 10rem;
 }
 
 /*
@@ -109,4 +109,11 @@ body {
 
 .mastfoot {
   color: rgba(255,255,255,.5);
+}
+
+
+@media (max-width: 1000px) {
+  .widthp {
+    padding:0 3rem;
+   }
 }
